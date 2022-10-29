@@ -1,4 +1,4 @@
-package com.kuluruvineeth.composeinstagram.domain.use_cases
+package com.kuluruvineeth.composeinstagram.domain.use_cases.AuthenticationUseCases
 
 data class AuthenticationUseCases(
     val isUserAuthenticated: IsUserAuthenticated,

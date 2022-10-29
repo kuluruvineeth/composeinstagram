@@ -1,4 +1,4 @@
-package com.kuluruvineeth.composeinstagram.domain.use_cases
+package com.kuluruvineeth.composeinstagram.domain.use_cases.AuthenticationUseCases
 
 import com.kuluruvineeth.composeinstagram.domain.repository.AuthenticationRepository
 import javax.inject.Inject

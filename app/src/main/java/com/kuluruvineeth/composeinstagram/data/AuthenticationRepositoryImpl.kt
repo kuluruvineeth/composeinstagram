@@ -69,7 +69,7 @@ class AuthenticationRepositoryImpl @Inject constructor(
             emit(Response.Loading)
             auth.createUserWithEmailAndPassword(email,password).addOnSuccessListener {
                 operationSuccessful = true
-            }
+            }.await()
             if(operationSuccessful){
                 val userid = auth.currentUser?.uid!!
                 val obj = User(
